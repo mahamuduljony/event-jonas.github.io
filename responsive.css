@@ -1,0 +1,252 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-right {
+        margin-right: -0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav li {
+        margin-bottom: -10px;
+    }
+    .navbar-nav {
+        margin-top: 0px;
+    }
+    .navbar-right {
+        margin-right: -0px;
+    }
+    .navbar-nav {
+        margin-top: 10px;
+    }
+    .header-content h1 {
+        margin-top:150px;
+    }
+
+    .nav-tabs {
+        padding-left:45px;
+     }
+    #tickets .price {
+        max-width:492px;
+        margin:20px auto;
+    }
+
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .cool-link::after {
+        content: '';
+        display: none;
+    }
+    .menu-bg .navbar-default .navbar-nav >li > a {
+        transition:.4s;
+    }
+    .menu-bg .navbar-default .navbar-nav > li > a:hover {
+        color: #F82249;
+    }
+    .menu-bg .navbar-default .navbar-nav > li > a:focus{
+        color:#F82249;
+    }
+    .navbar-brand {
+        margin-bottom:10px;
+    }
+    .navbar-collapse {
+        text-align:center;
+       
+    }
+    .navbar-default .logo img {
+        width: 150px;
+    }
+    #speaker .event-photo .speaker {
+        max-width:292px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .nav-tabs {
+        padding-left: 0px;
+
+    }
+    .nav-tabs > li {
+        float:none;
+        margin-bottom: 10px;
+    }
+    .nav-tabs > li > a {
+        text-align:center;
+        max-width:50%;
+        margin:0 auto;
+        padding:14px 60px;
+    }
+    .venue-content {
+        padding:70px 30px;
+        
+    }
+    .venue-content h1 {
+        font-size:26px;
+        margin-bottom:15px;
+    }
+    #sponsors .thumbnail { 
+        max-width:390px;
+        margin:1px auto;
+        padding:30px 22px;
+        border-radius:0;
+    }
+    #contact .col-md-4  {
+        margin-bottom:35px;
+    }
+    #tickets .price {
+        max-width:392px;
+        margin:20px auto;
+     }
+    .navbar-default 
+	.navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {
+	    color: #F82249;
+	    background-color: transparent;
+	}
+
+}
+
+
+
+@media screen and (max-width:479px) {
+    .header-content h1 {
+        font-size:40px;
+    }
+    .header-content p {
+        font-size:15px;
+    }
+    .media-text {
+        float:none;
+    }
+    .nav-tabs {
+        padding-left: 0px;
+    }
+    .nav-tabs > li {
+        float:none;
+        margin-bottom: 10px;
+    }
+    .nav-tabs > li > a {
+        text-align:center;
+        max-width:50%;
+        margin:0 auto;
+        padding:14px 0px;
+    }
+    .event-header h2 {
+        font-size:32px;
+    }
+    .navbar-default .logo img {
+        width: 150px;
+    }
+    #about h2 {
+        font-size:30px;
+    }
+    #speaker .event-photo .speaker {
+        max-width:292px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .venue-content h1 {
+        font-size:24px;
+        margin-bottom:15px;
+        line-height:1.2em;
+    }
+    .venue-content {
+        padding:70px 10px;
+        
+    }
+    #hotels .thumbnail {
+        max-width:292px;
+        margin:20px auto;
+    }
+    #sponsors .thumbnail { 
+        max-width:390px;
+        margin:1px auto;
+        padding:30px 22px;
+        border-radius:0;
+    }
+    #contact .col-md-4  {
+        margin-bottom:35px;
+    }
+    .cool-link::after {
+        content: '';
+        display: none;
+    }
+    .menu-bg .navbar-default .navbar-nav >li > a {
+        transition:.4s;
+    }
+    .menu-bg .navbar-default .navbar-nav > li > a:hover {
+        color: #F82249;
+    }
+    .menu-bg .navbar-default .navbar-nav > li > a:focus{
+        color:#F82249;
+    }
+    .navbar-brand {
+        margin-bottom:10px;
+    }
+    .navbar-collapse {
+        text-align:center;
+       
+    }
+    .navbar-default 
+	.navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {
+	    color: #F82249;
+	    background-color: transparent;
+	}
+
+}
+
+
+@media screen and (max-width:320px) {
+    .event-photo .speaker img {
+        height:px;
+    }
+    #speaker .event-photo .speaker {
+        max-width:292px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #sponsors .thumbnail { 
+        max-width:390px;
+        margin:1px auto;
+        padding:30px 22px;
+        border-radius:0;
+    }
+    #contact .col-md-4  {
+        margin-bottom:35px;
+    }
+    .cool-link::after {
+        content: '';
+        display: none;
+    }
+    .menu-bg .navbar-default .navbar-nav >li > a {
+        transition:.4s;
+    }
+    .menu-bg .navbar-default .navbar-nav > li > a:hover {
+        color: #F82249;
+    }
+    .menu-bg .navbar-default .navbar-nav > li > a:focus{
+        color:#F82249;
+    }
+    .navbar-brand {
+        margin-bottom:10px;
+    }
+    .navbar-collapse {
+        text-align:center;
+       
+    }
+    .venue-content {
+        padding:20px 10px;
+        
+    }
+    .navbar-default 
+	.navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {
+	    color: #F82249;
+	    background-color: transparent;
+	}
+
+}
